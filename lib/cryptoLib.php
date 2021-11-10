@@ -7,7 +7,6 @@
         $coinsArray = array();
         foreach($coins as $coin){
             array_push($coinsArray, $coin['item']);
-    
         }
         return $coinsArray;
     }
