@@ -8,19 +8,7 @@
         //TODO: CAL ACTUALITZAR LA COOKIE (O ESBORRAR-LA) SI S'HAN MODIFICAT LES OPCIONS DE SEGUIMENT
     }
 
-    //TODO: OBTENIR ARRAY DE CRIPTOS VIA CRYPTOLIB
-    //Construïm la graella de crypto tendències
-    $table = "  <table class=\"table table-hover border border-primary rounded\"><thead><tr class=\"table-primary\">
-                <th>Crypto</th>
-                <th>Símbol</th>
-                <th>#Cap.Mercat</th>
-                <th>Icona</th>
-                <th>Preu BTC</th>
-                <th colspan=\"2\">Seguiment</th>
-                </thead></tr><tbody>";
-    //TODO: CALDRÀ RECUPERAR LES DADES DE CADA CRYPTO PER ANAR GENERANT LES FILES DE LA TAULA
-    //TODO: INVESTIGAR VIA DEPURACIÓ EL FORMAT DE LES DADES RETORNADES PER GETTRENDINGCOINS()
-    $table .= "</tbody></table>";
+    //TODO: CAL UTILITZAR FUNCIONS DE CRYPTOLIB PER OBTENIR GRAELLA DE CRYPTOS
 ?>
 <!DOCTYPE html>
 <html lang="ca">
